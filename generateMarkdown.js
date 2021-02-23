@@ -14,6 +14,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
   # ${data.title} \n
+
   ## Project Description.
   <br>
   ${data.description} \n
@@ -23,24 +24,25 @@ function generateMarkdown(data) {
 
   ## Table of Contents \n
  
-
   ### * [Technologies used](#technologies)
   ### * [Usage walkthrough](#walkthrough)
   ### * [Screenshots](#screenshots)
   ### * [How is this application useful?](#usefulApplication)
   ### * [License](#license)
-  ### * [Contact Info](#contact) \n
-  <br>
-  <hr>
+  ### * [Contact Info](#contact)
+
+
   ## Technologies used: \n
+
   ### _*${data.technologies}*_
-  <br>
-  <br>
+
   <hr>
+
   ## License: \n
   ${data.license}
-  <br>
+
   <hr>
+
   ## Contact Me: \n
   ${data.email}
 `;
