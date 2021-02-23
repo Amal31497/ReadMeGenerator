@@ -37,8 +37,12 @@ inquirer.prompt([
         name:'technologies',
         message:'Please checkmark which technologies you used for your project? If a technologies is not an option here, select "others"',
         choices:['HTML', 'CSS', 'Javascript', 'Jquery', 'Node.js','Bootstrap','Heroku App', 'Goole APIs', 'Others']
+    },
+    {
+        type:'input',
+        name:'email',
+        message:'What is your email?'
     }
-
 ])
 
 // TODO: Create a function to write README file
