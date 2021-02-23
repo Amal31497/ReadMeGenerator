@@ -20,15 +20,16 @@ function generateMarkdown(data) {
   ${data.deployedLink} \n
   ${data.gitHubLink} \n
   <br>
-  ## Table of Contents
-  <br>
+
+  ## Table of Contents \n
+ 
+
   ### * [Technologies used](#technologies)
   ### * [Usage walkthrough](#walkthrough)
   ### * [Screenshots](#screenshots)
   ### * [How is this application useful?](#usefulApplication)
   ### * [License](#license)
-  ### * [Contact Info](#contact)
-  <br>
+  ### * [Contact Info](#contact) \n
   <br>
   <hr>
   ## Technologies used: \n
