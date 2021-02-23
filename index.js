@@ -25,6 +25,18 @@ inquirer.prompt([
         type:'input',
         name:'gitHubLink',
         message:'Insert the github repository link with here -->'
+    },
+    {
+        type:'list',
+        name:'license',
+        message:'What kind of license should your project have?',
+        choices:["GPL 3.0", "APACHE 2.0", "BSD 3", "MIT", "None"]
+    },
+    {
+        type:'checkbox',
+        name:'technologies',
+        message:'Please checkmark which technologies you used for your project? If a technologies is not an option here, select "others"',
+        choices:['HTML', 'CSS', 'Javascript', 'Jquery', 'Node.js','Bootstrap','Heroku App', 'Goole APIs', 'Others']
     }
 
 ])
