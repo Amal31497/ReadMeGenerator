@@ -1,5 +1,5 @@
 
-  # Read Me generator 
+  # Read Me Generator 
 
 
   ## Project Description.
@@ -9,9 +9,9 @@
 
 
 
-   [Deployed last version](linlinlinlink.com) 
+   [Deployed last version](dflkvhsvkh.co) 
 
-   [Github repo](linlinlinlinlink.co) 
+   [Github repo](aslkhajhkb.com) 
 
   <br>
 
@@ -33,7 +33,7 @@
   Please follow this *[link](https://www.youtube.com/watch?v=_8gHHBlbziw)* to watch the walkthrough video.
 
   #### Screenshots:
-  [Screenshot](./Assets/image/Portfoliopicta.png)
+  ![Screenshot](./Assets/image/Portfoliopicta.png)
 
   ## License: 
 
