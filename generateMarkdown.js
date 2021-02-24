@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   var licenseBadge = '';
   if(license === "GPL 3.0"){
-    licenseBadge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0'
+    licenseBadge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
   }
   if(license === "APACHE 2.0"){
     licenseBadge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
@@ -53,6 +53,7 @@ function screenshots(link1,link2){
   return null
 }
 
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
@@ -71,7 +72,7 @@ function generateMarkdown(data) {
  
   ##### * [Technologies used](#technologies)
   ##### * [Usage walkthrough](#walkthrough)
-  ##### * [Installation](#usefulApplication)
+  ##### * [Installation](#installation)
   ##### * [Credits](#credits)
   ##### * [License](#license)
   ##### * [Contact Info](#contact)
@@ -87,15 +88,21 @@ function generateMarkdown(data) {
   #### Screenshots:
   ${screenshots(data.screenshot1, data.screenshot2)}
 
+  ## Installation:
+    1. npm install
+    2. node index.js
+    3. Answer the question in according order.
+  
+
   ## License: \n
   ##### Copyright: ${data.name}\n
-  ##### ${renderLicenseBadge(data.license)}
+  ##### ${renderLicenseBadge(data.license)}\n
   ##### ${renderLicenseLink(data.license)}
 
 
   ## Contact Me: \n
   ##### ${data.email}
-`;
+`
 }
 
 module.exports = generateMarkdown;

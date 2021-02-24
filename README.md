@@ -1,5 +1,5 @@
 
-  # Read Me generator 
+  # Read Me Generator 
 
 
   <br>
@@ -8,23 +8,23 @@
 
   <br>
 
-   [Deployed last version](aojvb.com) 
+   [Deployed last version](asrlkhjsvln.link) 
 
-   [Github repo](adkchacjhb.com)
+   [Github repo](aicalb.link)
   <br>
 
   ## Table of Contents 
  
   ##### * [Technologies used](#technologies)
   ##### * [Usage walkthrough](#walkthrough)
-  ##### * [Installation](#usefulApplication)
+  ##### * [Installation](#installation)
   ##### * [Credits](#credits)
   ##### * [License](#license)
   ##### * [Contact Info](#contact)
 
 
   ## Technologies used:
-   _*HTML,CSS,Javascript,Jquery,Node.js*_
+   _*Javascript,Jquery,Node.js,Bootstrap,Heroku App,Goole APIs*_
 
   ## Usage walkthrough:
   #### Video walkthrough:
@@ -33,14 +33,21 @@
   #### Screenshots:
   ![Screenshot](./Assets/Images/Portfoliopicta.png)
 
+  ## Installation:
+    1. npm install
+    2. node index.js
+    3. Answer the question in according order.
+  
+
   ## License: 
 
   ##### Copyright: Amal Janabayev
 
-  ##### [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0
+  ##### [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
   ##### [License Link](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 
   ## Contact Me: 
 
-  ##### amaldjsnckj.com
+  ##### aaskjvckj.co
