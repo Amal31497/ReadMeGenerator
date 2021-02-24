@@ -47,6 +47,21 @@ inquirer.prompt([
         type:'input',
         name:'email',
         message:'What is your email?'
+    },
+    {
+        type:'input',
+        name:'videoLink',
+        message:'Plese put your walkthrough video link right here'
+    },
+    {
+        type:'input',
+        name:'screenshot1',
+        message:'Please follow this format to insert screenshots if any ---> (I.e photo.jpeg) instead of ./assets/photos/photo.jpeg)'
+    },
+    {
+        type:'input',
+        name:'screenshot2',
+        message:'Please follow this format to insert screenshots if any ---> (I.e photo.jpeg) instead of ./assets/photos/photo.jpeg)'
     }
 ])
 

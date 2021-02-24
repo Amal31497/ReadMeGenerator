@@ -43,6 +43,15 @@ function renderLicenseLink(license) {
   return licenseLink;
 }
 
+function screenshots(link1,link2){
+  if(link1){
+    return `[Screenshot](./Assets/image/${link1})`
+  }
+  if(link2){
+    return `[Screenshot](./Assets/images/${link2})`
+  }
+  return null
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -51,33 +60,42 @@ function generateMarkdown(data) {
 
   ## Project Description.
   <br>
+  <br>
   ${data.description} \n
 
-  [Deployed last version](${data.deployedLink}) \n
-  [Github repo](${data.gitHubLink}) \n
+
+   [Deployed last version](${data.deployedLink}) \n
+   [Github repo](${data.gitHubLink}) \n
   <br>
 
   ## Table of Contents 
  
-  #### * [Technologies used](#technologies)
-  #### * [Usage walkthrough](#walkthrough)
-  #### * [Screenshots](#screenshots)
-  #### * [How is this application useful?](#usefulApplication)
-  #### * [License](#license)
-  #### * [Contact Info](#contact)
+  ##### * [Technologies used](#technologies)
+  ##### * [Usage walkthrough](#walkthrough)
+  ##### * [Installation](#usefulApplication)
+  ##### * [Credits](#credits)
+  ##### * [License](#license)
+  ##### * [Contact Info](#contact)
+
 
   ## Technologies used:
+   _*${data.technologies}*_
 
-  #### _*${data.technologies}*_
+  ## Usage walkthrough:
+  #### Video walkthrough:
+  Please follow this *[link](${data.videoLink})* to watch the walkthrough video.
 
+  #### Screenshots:
+  ${screenshots(data.screenshot1, data.screenshot2)}
 
   ## License: \n
-  #### Copyright: ${data.name}\n
-  #### ${renderLicenseBadge(data.license)}\n ${renderLicenseLink(data.license)}
+  ##### Copyright: ${data.name}\n
+  ##### ${renderLicenseBadge(data.license)}
+  ##### ${renderLicenseLink(data.license)}
 
 
   ## Contact Me: \n
-  #### ${data.email}
+  ##### ${data.email}
 `;
 }
 
