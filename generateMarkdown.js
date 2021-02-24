@@ -45,10 +45,10 @@ function renderLicenseLink(license) {
 
 function screenshots(link1,link2){
   if(link1){
-    return `![Screenshot](./Assets/image/${link1})`
+    return `![Screenshot](./Assets/Images/${link1})`
   }
   if(link2){
-    return `![Screenshot](./Assets/images/${link2})`
+    return `![Screenshot](./Assets/Images/${link2})`
   }
   return null
 }
@@ -58,14 +58,13 @@ function generateMarkdown(data) {
   return `
   # ${data.title} \n
 
-  ## Project Description.
   <br>
   <br>
   ${data.description} \n
-
+  <br>
 
    [Deployed last version](${data.deployedLink}) \n
-   [Github repo](${data.gitHubLink}) \n
+   [Github repo](${data.gitHubLink})
   <br>
 
   ## Table of Contents 
