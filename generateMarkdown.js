@@ -1,14 +1,48 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  var licenseBadge = '';
+  if(license === "GPL 3.0"){
+    licenseBadge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0'
+  }
+  if(license === "APACHE 2.0"){
+    licenseBadge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+  }
+  if(license === "BSD 3"){
+    licenseBadge = '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)'
+  }
+  if(license === "MIT"){
+    licenseBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+  }
+  if(license === "None"){
+    licenseBadge = null
+  }
+  return licenseBadge
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  var licenseLink = '';
+  if(license === "GPL 3.0"){
+    licenseLink = "[License Link](https://www.gnu.org/licenses/gpl-3.0.en.html)"
+  }
+  if(license === "APACHE 2.0"){
+    licenseLink = "[License Link](http://www.apache.org/licenses/LICENSE-2.0)"
+  }
+  if(license === "BSD 3"){
+    licenseLink = "[Licence Link](https://opensource.org/licenses/BSD-3-Clause)"
+  }
+  if(license === "MIT"){
+    licenseLink = "[License Link](https://opensource.org/licenses/MIT)"
+    
+  }
+  if(license === "None"){
+    licenseLink = null
+  }
+  return licenseLink;
+}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -18,33 +52,32 @@ function generateMarkdown(data) {
   ## Project Description.
   <br>
   ${data.description} \n
-  ${data.deployedLink} \n
-  ${data.gitHubLink} \n
+
+  [Deployed last version](${data.deployedLink}) \n
+  [Github repo](${data.gitHubLink}) \n
   <br>
 
-  ## Table of Contents \n
+  ## Table of Contents 
  
-  ### * [Technologies used](#technologies)
-  ### * [Usage walkthrough](#walkthrough)
-  ### * [Screenshots](#screenshots)
-  ### * [How is this application useful?](#usefulApplication)
-  ### * [License](#license)
-  ### * [Contact Info](#contact)
+  #### * [Technologies used](#technologies)
+  #### * [Usage walkthrough](#walkthrough)
+  #### * [Screenshots](#screenshots)
+  #### * [How is this application useful?](#usefulApplication)
+  #### * [License](#license)
+  #### * [Contact Info](#contact)
 
+  ## Technologies used:
 
-  ## Technologies used: \n
+  #### _*${data.technologies}*_
 
-  ### _*${data.technologies}*_
-
-  <hr>
 
   ## License: \n
-  ${data.license}
+  #### Copyright: ${data.name}\n
+  #### ${renderLicenseBadge(data.license)}\n ${renderLicenseLink(data.license)}
 
-  <hr>
 
   ## Contact Me: \n
-  ${data.email}
+  #### ${data.email}
 `;
 }
 

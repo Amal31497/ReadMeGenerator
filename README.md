@@ -1,41 +1,40 @@
 
-  # Read Me Generator 
+  # Read Me generator 
 
 
   ## Project Description.
   <br>
-  The project was made to generate Read Me files automatically for future coding projects just by entering some input. The goal is to make writing readMes a lot more fun. The format for user's readme file is predetermined and is polished to be presentable for you employer or professor in college. Please make sure to enter as much input as you can for a better experience.  
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum 
 
-  linklinklink.com 
 
-  linklinklink.com 
+  [Deployed last version](deployedLink.com) 
+
+  [Github repo](github.repo.com) 
 
   <br>
 
   ## Table of Contents 
-
  
-  ### * [Technologies used](#technologies)
-  ### * [Usage walkthrough](#walkthrough)
-  ### * [Screenshots](#screenshots)
-  ### * [How is this application useful?](#usefulApplication)
-  ### * [License](#license)
-  ### * [Contact Info](#contact)
+  #### * [Technologies used](#technologies)
+  #### * [Usage walkthrough](#walkthrough)
+  #### * [Screenshots](#screenshots)
+  #### * [How is this application useful?](#usefulApplication)
+  #### * [License](#license)
+  #### * [Contact Info](#contact)
 
+  ## Technologies used:
 
-  ## Technologies used: 
+  #### _*HTML,CSS,Javascript,Jquery,Node.js,Bootstrap,Heroku App,Goole APIs*_
 
-
-  ### _*HTML,CSS,Javascript,Jquery,Node.js*_
-
-  <hr>
 
   ## License: 
 
-  GPL 3.0
+  #### Copyright: Amal Janabayev
 
-  <hr>
+  #### [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+ [Licence Link](https://opensource.org/licenses/BSD-3-Clause)
+
 
   ## Contact Me: 
 
-  amamamamdj...owjm.com
+  #### sdclkjavkhbj.com
