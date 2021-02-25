@@ -1,15 +1,15 @@
 
-  # Read Me Generator 
+  # Good ReadMe Generator 
 
 
   <br>
-  This application is designed for developers who want to save time on creating a polished complete README.md file. Read me generator lets you create a good file with the following inclusions: (Title, description, links, screenshots, video walthrough, and a lot more!) 
+  This application is designed for developers who want to save time on creating a polished complete README.md file. Read me generator lets you create a good file with the following inclusions: (Title, description, links, screenshots, video walthrough, and a lot more!). In order to start using the application you would need to clone the repository from my github account(More information below). You would need to run the following commands in the command line ---> npm install inquirer ---> npm install fs ---> node index.js 
 
   <br>
 
    [Deployed last version](deployed-link.com)
 
-   [Github repo](repo-github.com)
+   [Github repo](github-repo.com)
 
   <br>
 
@@ -24,11 +24,11 @@
 
 
   ## Technologies:
-   _*HTML,CSS,Javascript,Jquery,Node.js,Bootstrap,Heroku App*_
+   _*HTML,CSS,Javascript,Jquery,Node.js*_
 
   ## Walkthrough:
   #### Video:
-  Please follow this *[link](videolink.vid)* to watch the walkthrough video.
+  Please follow this *[link](video.video)* to watch the walkthrough video.
 
   #### Screenshots:
   ![Screenshot](./Assets/Images/screenshot1.png)
@@ -39,7 +39,9 @@
 
     1. git clone [Repository link you can find under "code" button] (To get the code from a repo)
 
-    2. npm i (To install all needed packages)
+    2. npm install inquirer
+
+    3. npm install fs
 
     3. node index.js
 
@@ -48,7 +50,7 @@
     5. Get the output in a form of a new custom generated README.md file
   
   ## Credits:
-  [https://www.w3schools.com/](https://www.w3schools.com/)
+  [w3schools.com](w3schools.com)
   []()
   []()
 
