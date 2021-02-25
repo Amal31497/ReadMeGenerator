@@ -1,57 +1,66 @@
 
-  # Read Me Generator 
+  # Good ReadMe Generator 
 
 
   <br>
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum 
+  This project helps user to generate custom designed ReadMe file just by entering certain input (Description, Screenshots, Links to the deployed application and github repository, Video walkthrough, contact information, etc.). The program is designed to expedite the process of writing ReadMe files which, quite honestly, can take a large portion of the time and energy you could be spending on the development of the application itself. Please follow the quidelines on how to use this generator and you will get a pleasant output. Enjoy! 
 
   <br>
-----------------------------------------------------------------------------------
-   [Deployed last version](askvhfk.com)|[Github repo](elivhajch.com)
-----------------------------------------------------------------------------------
+
+   [Deployed last version](deployed-link.com)
+
+   [Github repo](githubrepo.com)
+
   <br>
 
   ## Table of Contents 
  
-  ##### * [Technologies used](#technologies)
-  ##### * [Usage walkthrough](#walkthrough)
-  ##### * [Installation](#installation)
-  ##### * [Credits](#credits)
-  ##### * [License](#license)
-  ##### * [Contact Info](#contact)
+  ##### * [Technologies used](#Technologies)
+  ##### * [Usage walkthrough](#Walkthrough)
+  ##### * [Installation](#Installation)
+  ##### * [Credits](#Credits)
+  ##### * [License](#License)
+  ##### * [Contact Info](#Contact)
 
 
-  ## Technologies used:
-   _*HTML,CSS,Javascript,Jquery,Node.js,Bootstrap*_
+  ## Technologies:
+   _*HTML,CSS,Javascript,Jquery,Node.js*_
 
-  ## Usage walkthrough:
-  #### Video walkthrough:
-  Please follow this *[link](youtube.co)* to watch the walkthrough video.
+  ## Walkthrough:
+  #### Video:
+  Please follow this *[link](walkthrough.video)* to watch the walkthrough video.
 
   #### Screenshots:
   ![Screenshot](./Assets/Images/Portfoliopicta.png)
-  ![Screenshot](./Assets/Images/Portfoliopicta.png)
+  ![Screenshot](./Assets/Images/SecondScreenshot.png)
 
   ## Installation:
   Run the following commands in your integrated terminal to initalize the application:
-    1. npm install
-    2. node index.js
-    3. Answer the question in according order.
+
+    1. git clone [Repository link you can find under "code" button] (To get the code from a repo)
+
+    2. npm i (To install all needed packages)
+
+    3. node index.js
+
+    4. Answer all the questions accordingly
+
+    5. Get the output in a form of a new custom generated README.md file
   
   ## Credits:
-  [Credit1](akhvdsbc.com)
-  [Credit2](jahebvhjkb.com)
-  [Credit3](aibibc.com)
+  [https://www.w3schools.com/](https://www.w3schools.com/)
+  [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)
+  [https://www.youtube.com/](https://www.youtube.com/)
 
   ## License: 
 
   ##### Copyright: Amal Janabayev
 
-  ##### [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  ##### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ##### [License Link](https://www.gnu.org/licenses/gpl-3.0.en.html)
+  ##### [License Link](https://opensource.org/licenses/MIT)
 
 
-  ## Contact Me: 
+  ## Contact: 
 
-  ##### asjvajbh.co
+  ##### amalj2426@gmail.com

@@ -52,7 +52,7 @@ function screenshots(link1,link2){
 
 function credits(credit1, credit2, credit3){
   if(credit1 || credit2 || credit3){
-    return `[Credit1](${credit1})\n  [Credit2](${credit2})\n  [Credit3](${credit3})`
+    return `[${credit1}](${credit1})\n  [${credit2}](${credit2})\n  [${credit3}](${credit3})`
   }
   return null
 }
@@ -64,37 +64,38 @@ function generateMarkdown(data) {
   <br>
   ${data.description} \n
   <br>
-----------------------------------------------------------------------------------
-   [Deployed last version](${data.deployedLink})|[Github repo](${data.gitHubLink})
-----------------------------------------------------------------------------------
+
+   [Deployed last version](${data.deployedLink})\n
+   [Github repo](${data.gitHubLink})
+
   <br>
 
   ## Table of Contents 
  
-  ##### * [Technologies used](#technologies)
-  ##### * [Usage walkthrough](#walkthrough)
-  ##### * [Installation](#installation)
-  ##### * [Credits](#credits)
-  ##### * [License](#license)
-  ##### * [Contact Info](#contact)
+  ##### * [Technologies used](#Technologies)
+  ##### * [Usage walkthrough](#Walkthrough)
+  ##### * [Installation](#Installation)
+  ##### * [Credits](#Credits)
+  ##### * [License](#License)
+  ##### * [Contact Info](#Contact)
 
 
-  ## Technologies used:
+  ## Technologies:
    _*${data.technologies}*_
 
-  ## Usage walkthrough:
-  #### Video walkthrough:
+  ## Walkthrough:
+  #### Video:
   Please follow this *[link](${data.videoLink})* to watch the walkthrough video.
 
   #### Screenshots:
   ${screenshots(data.screenshot1, data.screenshot2)}
 
   ## Installation:
-  Run the following commands in your integrated terminal to initalize the application:
-    1. git clone [Repository link you can find under "code" button] (To get the code from a repo)
-    2. npm i (To install all needed packages)
-    3. node index.js
-    4. Answer all the questions accordingly
+  Run the following commands in your integrated terminal to initalize the application:\n
+    1. git clone [Repository link you can find under "code" button] (To get the code from a repo)\n
+    2. npm i (To install all needed packages)\n
+    3. node index.js\n
+    4. Answer all the questions accordingly\n
     5. Get the output in a form of a new custom generated README.md file
   
   ## Credits:
@@ -106,7 +107,7 @@ function generateMarkdown(data) {
   ##### ${renderLicenseLink(data.license)}
 
 
-  ## Contact Me: \n
+  ## Contact: \n
   ##### ${data.email}
 `
 }
