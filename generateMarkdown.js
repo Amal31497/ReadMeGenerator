@@ -45,7 +45,8 @@ function renderLicenseLink(license) {
 
 function screenshots(link1,link2){
   if(link1 || link2){
-    return `![Screenshot](./Assets/Images/${link1})\n  ![Screenshot](./Assets/Images/${link2})`
+    return `![Screenshot](./Assets/Images/${link1})\n  
+            ![Screenshot](./Assets/Images/${link2})`
   }
   return null
 }

@@ -7,8 +7,6 @@
 
   <br>
 
-   [Deployed last version](https://github.com/Amal31497/ReadMeGenerator)
-
    [Github repo](https://github.com/Amal31497/ReadMeGenerator)
 
   <br>
