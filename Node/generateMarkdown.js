@@ -44,28 +44,29 @@ function renderLicenseLink(license) {
 }
 
 function screenshots(link1,link2){
-  if(link1){
-    return `![Screenshot](./Assets/Images/${link1})`
-  }
-  if(link2){
-    return `![Screenshot](./Assets/Images/${link2})`
+  if(link1 || link2){
+    return `![Screenshot](./Assets/Images/${link1})\n  ![Screenshot](./Assets/Images/${link2})`
   }
   return null
 }
 
-
+function credits(credit1, credit2, credit3){
+  if(credit1 || credit2 || credit3){
+    return `[Credit1](${credit1})\n  [Credit2](${credit2})\n  [Credit3](${credit3})`
+  }
+  return null
+}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   # ${data.title} \n
 
   <br>
-  <br>
   ${data.description} \n
   <br>
-
-   [Deployed last version](${data.deployedLink}) \n
-   [Github repo](${data.gitHubLink})
+----------------------------------------------------------------------------------
+   [Deployed last version](${data.deployedLink})|[Github repo](${data.gitHubLink})
+----------------------------------------------------------------------------------
   <br>
 
   ## Table of Contents 
@@ -89,10 +90,15 @@ function generateMarkdown(data) {
   ${screenshots(data.screenshot1, data.screenshot2)}
 
   ## Installation:
-    1. npm install
-    2. node index.js
-    3. Answer the question in according order.
+  Run the following commands in your integrated terminal to initalize the application:
+    1. git clone [Repository link you can find under "code" button] (To get the code from a repo)
+    2. npm i (To install all needed packages)
+    3. node index.js
+    4. Answer all the questions accordingly
+    5. Get the output in a form of a new custom generated README.md file
   
+  ## Credits:
+  ${credits(data.credit1, data.credit2, data.credit3)}
 
   ## License: \n
   ##### Copyright: ${data.name}\n

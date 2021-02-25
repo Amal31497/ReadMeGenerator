@@ -51,7 +51,7 @@ inquirer.prompt([
     {
         type:'input',
         name:'videoLink',
-        message:'Plese put your walkthrough video link right here'
+        message:'Please put your walkthrough video link right here'
     },
     {
         type:'input',
@@ -62,6 +62,21 @@ inquirer.prompt([
         type:'input',
         name:'screenshot2',
         message:'Please follow this format to insert screenshots if any ---> (I.e photo.jpeg) instead of ./assets/photos/photo.jpeg)'
+    },
+    {
+        type:'input',
+        name:'credit1',
+        message:'Please mention a resource that you found helpful for this project(link)'
+    },
+    {
+        type:'input',
+        name:'credit2',
+        message:'Please mention another resource that you found helpful(link)'
+    },
+    {
+        type:'input',
+        name:'credit3',
+        message:'If there is another resource that you would like to mentions please do(link)'
     }
 ])
 
