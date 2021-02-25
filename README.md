@@ -26,7 +26,7 @@
 
   ## Walkthrough:
   #### Video:
-  Please follow this *[link](https://drive.google.com/drive/my-drive)* to watch the walkthrough video.
+  Please follow this *[link](https://youtu.be/uFou940QPMk)* to watch the walkthrough video.
 
   #### Screenshots:
   ![Screenshot](./Assets/Images/screenshot1.png)
