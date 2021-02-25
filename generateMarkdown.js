@@ -93,7 +93,8 @@ function generateMarkdown(data) {
   ## Installation:
   Run the following commands in your integrated terminal to initalize the application:\n
     1. git clone [Repository link you can find under "code" button] (To get the code from a repo)\n
-    2. npm i (To install all needed packages)\n
+    2. npm install inquirer\n
+    3. npm install fs\n
     3. node index.js\n
     4. Answer all the questions accordingly\n
     5. Get the output in a form of a new custom generated README.md file

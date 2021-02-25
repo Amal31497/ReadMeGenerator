@@ -1,9 +1,9 @@
 
-  # Good Read Me generator 
+  # Read Me Generator 
 
 
   <br>
-  This application is designed to help user create a customized polished ReadMe file. With this command application user is able to specify the following : Project title, description, screenshots, video walkthrough, contact info, link and a lot more. In order to use the application, you would need to clone the repository from my github account(Mentioned in this readme). After installing inquirer and fs with npm you can run the application by using "node index.js". Answer all the questions and you will generate a customized read file for your project. 
+  This application is designed for developers who want to save time on creating a polished complete README.md file. Read me generator lets you create a good file with the following inclusions: (Title, description, links, screenshots, video walthrough, and a lot more!) 
 
   <br>
 
@@ -24,14 +24,14 @@
 
 
   ## Technologies:
-   _*HTML,CSS,Javascript,Jquery,Node.js,Bootstrap*_
+   _*HTML,CSS,Javascript,Jquery,Node.js,Bootstrap,Heroku App*_
 
   ## Walkthrough:
   #### Video:
-  Please follow this *[link](video.walkthrough.video)* to watch the walkthrough video.
+  Please follow this *[link](videolink.vid)* to watch the walkthrough video.
 
   #### Screenshots:
-  ![Screenshot](./Assets/Images/screenshot1)
+  ![Screenshot](./Assets/Images/screenshot1.png)
   ![Screenshot](./Assets/Images/screenshot2.png)
 
   ## Installation:
@@ -49,8 +49,8 @@
   
   ## Credits:
   [https://www.w3schools.com/](https://www.w3schools.com/)
-  [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)
-  [https://www.youtube.com/](https://www.youtube.com/)
+  []()
+  []()
 
   ## License: 
 
