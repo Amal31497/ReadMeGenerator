@@ -1,15 +1,15 @@
 
-  # Good ReadMe Generator 
+  # Good Read Me Generator 
 
 
   <br>
-  This application is designed for developers who want to save time on creating a polished complete README.md file. Read me generator lets you create a good file with the following inclusions: (Title, description, links, screenshots, video walthrough, and a lot more!). In order to start using the application you would need to clone the repository from my github account(More information below). You would need to run the following commands in the command line ---> npm install inquirer ---> npm install fs ---> node index.js 
+  This application is designed for developers who want to save time on creating a polished complete README.md file. Read me generator lets you create a good file with the following inclusions: (Title, description, links, screenshots, video walthrough, and a lot more!). In order to start using the application you would need to clone the repository from my github account(More information below). You would need to run the following commands in the command line ---> npm install inquirer ---> npm install fs ---> node index.js  
 
   <br>
 
    [Deployed last version](deployed-link.com)
 
-   [Github repo](github-repo.com)
+   [Github repo](github-repository.com)
 
   <br>
 
@@ -58,9 +58,9 @@
 
   ##### Copyright: Amal Janabayev
 
-  ##### [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  ##### [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-  ##### [License Link](https://www.gnu.org/licenses/gpl-3.0.en.html)
+  ##### [Licence Link](https://opensource.org/licenses/BSD-3-Clause)
 
 
   ## Contact: 
