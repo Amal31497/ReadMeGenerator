@@ -3,13 +3,13 @@
 
 
   <br>
-  This application is designed for developers who want to save time on creating a polished complete README.md file. Read me generator lets you create a good file with the following inclusions: (Title, description, links, screenshots, video walthrough, and a lot more!). In order to start using the application you would need to clone the repository from my github account(More information below). You would need to run the following commands in the command line ---> npm install inquirer ---> npm install fs ---> node index.js  
+  This application is designed for developers who want to save time on creating a polished complete README.md file. Read me generator lets you create a good file with the following inclusions: (Title, description, links, screenshots, video walthrough, and a lot more!). In order to start using the application you would need to clone the repository from my github account(More information below). You would need to run the following commands in the command line ---> npm install inquirer ---> npm install fs ---> node index.js   
 
   <br>
 
-   [Deployed last version](deployed-link.com)
+   [Deployed last version](https://github.com/Amal31497/ReadMeGenerator)
 
-   [Github repo](github-repository.com)
+   [Github repo](https://github.com/Amal31497/ReadMeGenerator)
 
   <br>
 
@@ -24,11 +24,11 @@
 
 
   ## Technologies:
-   _*HTML,CSS,Javascript,Jquery,Node.js*_
+   _*Javascript,Node.js*_
 
   ## Walkthrough:
   #### Video:
-  Please follow this *[link](video.video)* to watch the walkthrough video.
+  Please follow this *[link](https://drive.google.com/drive/my-drive)* to watch the walkthrough video.
 
   #### Screenshots:
   ![Screenshot](./Assets/Images/screenshot1.png)
@@ -51,16 +51,16 @@
   
   ## Credits:
   [w3schools.com](w3schools.com)
-  []()
+  [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)
   []()
 
   ## License: 
 
   ##### Copyright: Amal Janabayev
 
-  ##### [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  ##### [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-  ##### [Licence Link](https://opensource.org/licenses/BSD-3-Clause)
+  ##### [License Link](http://www.apache.org/licenses/LICENSE-2.0)
 
 
   ## Contact: 
