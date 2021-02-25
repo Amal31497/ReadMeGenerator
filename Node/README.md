@@ -1,50 +1,56 @@
 
-  # Read ME Generator 
+  # Good Read Me generator 
 
 
   <br>
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum 
+  This application is designed to help user create a customized polished ReadMe file. With this command application user is able to specify the following : Project title, description, screenshots, video walkthrough, contact info, link and a lot more. In order to use the application, you would need to clone the repository from my github account(Mentioned in this readme). After installing inquirer and fs with npm you can run the application by using "node index.js". Answer all the questions and you will generate a customized read file for your project. 
 
   <br>
-  For the demonstration of the project|For the github repository information
-------------------------------------------------|---------------------------------
-   [Deployed last version](akhvbksj.com)|[Github repo](asidcbsichb.com)
-----------------------------------------------------------------------------------
+
+   [Deployed last version](deployed-link.com)
+
+   [Github repo](repo-github.com)
+
   <br>
 
   ## Table of Contents 
  
-  ##### * [Technologies used](#technologies)
-  ##### * [Usage walkthrough](#walkthrough)
-  ##### * [Installation](#installation)
-  ##### * [Credits](#credits)
-  ##### * [License](#license)
-  ##### * [Contact Info](#contact)
+  ##### * [Technologies used](#Technologies)
+  ##### * [Usage walkthrough](#Walkthrough)
+  ##### * [Installation](#Installation)
+  ##### * [Credits](#Credits)
+  ##### * [License](#License)
+  ##### * [Contact Info](#Contact)
 
 
-  ## Technologies used:
+  ## Technologies:
    _*HTML,CSS,Javascript,Jquery,Node.js,Bootstrap*_
 
-  ## Usage walkthrough:
-  #### Video walkthrough:
-  Please follow this *[link](youtube.com)* to watch the walkthrough video.
+  ## Walkthrough:
+  #### Video:
+  Please follow this *[link](video.walkthrough.video)* to watch the walkthrough video.
 
   #### Screenshots:
-  ![Screenshot](./Assets/Images/Portfoliopicta.png)
-  ![Screenshot](./Assets/Images/Portfoliopicta.png)
+  ![Screenshot](./Assets/Images/screenshot1)
+  ![Screenshot](./Assets/Images/screenshot2.png)
 
   ## Installation:
   Run the following commands in your integrated terminal to initalize the application:
+
     1. git clone [Repository link you can find under "code" button] (To get the code from a repo)
+
     2. npm i (To install all needed packages)
+
     3. node index.js
+
     4. Answer all the questions accordingly
+
     5. Get the output in a form of a new custom generated README.md file
   
   ## Credits:
-  [Credit1](afhskhc.com)
-  [Credit2](aishbvadkhsbc.com)
-  [Credit3](aiyfsvihb.com)
+  [https://www.w3schools.com/](https://www.w3schools.com/)
+  [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)
+  [https://www.youtube.com/](https://www.youtube.com/)
 
   ## License: 
 
@@ -55,6 +61,6 @@
   ##### [License Link](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 
-  ## Contact Me: 
+  ## Contact: 
 
-  ##### akhcbawkchb.com
+  ##### amalj2426@gmail.com
